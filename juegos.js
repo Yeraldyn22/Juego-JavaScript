@@ -428,6 +428,18 @@ La interfaz Event es la base de todos los eventos en JavaScript. Algunas de sus 
 EJEMPLO:
 
 
+        <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos y DOM</title>
+</head>
+<body>
+
+    <button id="miBoton">Haz clic en mí</button>
+
+    <script>
         // Seleccionar el botón del DOM
         const boton = document.getElementById("miBoton");
 
@@ -437,8 +449,10 @@ EJEMPLO:
             boton.style.backgroundColor = boton.style.backgroundColor === "blue" ? "red" : "blue";
             boton.textContent = "¡Me cambiaste de color!";
         });
-   
+    </script>
 
+</body>
+</html>
 
         //MODULOS 
 
